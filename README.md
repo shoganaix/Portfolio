@@ -1,4 +1,4 @@
-# TOBEDEFINED 
+# Name 
 **_"An interactive game-like experience"_**
 
 This website stands as a tribute to my enduring passion for videogames. 
@@ -8,7 +8,7 @@ _Embark on this journey and take your time to explore and enjoy my work._
 
 ## Key Features
 
-🎮 4-Directional Movement Character: Navigate your way through my career with a charming character that can move in all four directions, adding a sense of exploration to your experience.
+🎮 4-Directional Movement Character: Navigate your way through my career with a charming character that can move in all eight directions, adding a sense of exploration to your experience.
 
 🌍 Top-Down Adventure: Immerse yourself in a top-down adventure, reminiscent of classic video games like Zelda, as you delve into different aspects of my professional journey.
 
@@ -21,6 +21,7 @@ _Embark on this journey and take your time to explore and enjoy my work._
 ## Updates
 
 - [x] 4 Directional Movement
+- [ ] 8 Directional Movement
 - [x] Character Animations
 - [x] Collisions
 - [ ] Camera
