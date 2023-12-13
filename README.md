@@ -2,7 +2,7 @@
 **_Welcome to my portfolio! A top-down, retro-style pixel art adventure._** 
 
 This website stands as a tribute to my enduring passion for videogames. 
-The project has been coded using HTML, CSS, JavaScript, and Pixi. It has also been thoughtfully crafted using Aseprite and Photoshop for the pixel art visuals, along with ProTools for the creation of an original soundtrack
+The project has been coded using HTML, CSS, and JavaScript. It has also been thoughtfully crafted using Aseprite and Photoshop for the pixel art visuals, along with ProTools for the creation of an original soundtrack
 
 _Embark on this journey and take your time to explore and enjoy my work._
 
@@ -21,9 +21,9 @@ _Embark on this journey and take your time to explore and enjoy my work._
 ## Updates
 
 - [x] 4 Directional Movement
-- [x] Animations
+- [x] Character Animations
+- [x] Collisions
 - [ ] Camera
-- [ ] Collisions
 - [ ] Art
-
-
+- [ ] Links
+- [ ] Dialogues
