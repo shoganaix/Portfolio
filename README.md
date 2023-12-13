@@ -1,5 +1,5 @@
 # Welcome To My Portfolio 
-**_Welcome to my portfolio! A top-down, retro-style pixel art adventure._** 
+**_"An interactive game-like experience"_**
 
 This website stands as a tribute to my enduring passion for videogames. 
 The project has been coded using HTML, CSS, and JavaScript. It has also been thoughtfully crafted using Aseprite and Photoshop for the pixel art visuals, along with ProTools for the creation of an original soundtrack
