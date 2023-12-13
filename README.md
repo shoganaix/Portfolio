@@ -4,8 +4,6 @@
 This website stands as a tribute to my enduring passion for videogames. 
 The project has been coded using HTML, CSS, and JavaScript. It has also been thoughtfully crafted using Aseprite and Photoshop for the pixel art visuals, along with ProTools for the creation of an original soundtrack
 
-_Embark on this journey and take your time to explore and enjoy my work._
-
 ## Key Features
 
 🎮 4-Directional Movement Character: Navigate your way through my career with a charming character that can move in all eight directions, adding a sense of exploration to your experience.
