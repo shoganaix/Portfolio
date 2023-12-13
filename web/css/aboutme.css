@@ -1,0 +1,41 @@
+/*logo settings*/
+.navbar-brand {
+	background: url('../images/logo.png') no-repeat center center;
+	background-size: contain; /* or cover, or a specific size like 100px 50px */
+	height: 100px; /* Set the height of the navbar to match your logo */
+	width: 100px; /* Set the width of the navbar to match your logo */
+	display: flex;
+	align-items: center;
+	opacity: 0.3; /* Set the initial opacity value (less opacity) */
+	transition: opacity 0.3s ease; /* Add a smooth transition effect */
+
+}
+/* Change opacity on hover on logo */
+.navbar-brand:hover {
+	opacity: 0.8; /* Set opacity to 1 (full opacity) on hover */
+}
+/*background image */
+.about {
+	align-content: center;
+	background-color: rgba(128, 128, 128, 0.5);
+	height:100vh;
+	background-size:cover;
+	position:relative;
+}
+.aboutme{
+	text-align: center;
+	position: absolute;
+	left: 50%;
+	top: 25%;
+	transform: translate(-50%, -50%);
+	color: rgb(255, 255, 255);
+}
+
+
+.col-lg-8 {
+	position: absolute;
+	left: 50%;
+	top:65%;
+	transform: translate(-50%, -50%);
+	color: white;
+}
