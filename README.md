@@ -1,4 +1,4 @@
-# Explore My Portfolio: A Pixel Adventure
+# Welcome To My Portfolio!
 **_Welcome to my portfolio! A top-down, retro-style pixel art adventure._** 
 
 This website stands as a tribute to my enduring passion for videogames. 
