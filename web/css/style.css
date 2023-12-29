@@ -1,13 +1,9 @@
-/* display background color black on navbar scroll */
-.navbarScroll.navbarDark {
-	background-color: black;
-}
 /*logo settings*/
 .navbar-brand {
-	background: url('../images/logo.png') no-repeat center center;
+	background: url('../images/logo.png');
 	background-size: contain; /* or cover, or a specific size like 100px 50px */
-	height: 80px; /* Set the height of the navbar to match your logo */
-	width: 80px; /* Set the width of the navbar to match your logo */
+	height: 100px; /* Set the height of the navbar to match your logo */
+	width: 100px; /* Set the width of the navbar to match your logo */
 	display: flex;
 	align-items: center;
 	opacity: 0.3; /* Set the initial opacity value (less opacity) */
@@ -19,6 +15,7 @@
 }
 /*background image */
 .bgimage {
+	align-content: center;
 	height:100vh;
 	background: url('../images/bg.gif');
 	background-size:cover;
@@ -59,4 +56,26 @@
 	bottom: 0;
 	width: 100%;
 	padding: 10px 0;
+}
+
+/*IPAD*/
+@media only screen and (min-width: 700px) and (max-width: 1024px) and (orientation: portrait){
+	.navbar-brand {
+		height: 120px; /* Set the height of the navbar to match your logo */
+		width: 120px; /* Reduzca el tamaño del logo en pantallas pequeñas */
+	}
+	.hero_title {
+		font-size: 6rem;
+	}
+}
+
+/*NOT WORKING ON SMALL DEVICES*/
+@media only screen and (max-width: 376px) and (orientation:portrait){
+	.navbar-brand {
+		height: 150px; /* Set the height of the navbar to match your logo */
+		width: 120px; /* Reduzca el tamaño del logo en pantallas pequeñas */
+	}
+	.hero_title {
+		font-size: 10rem;
+	}
 }
