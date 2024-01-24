@@ -60,6 +60,7 @@
 	bottom: 0;
 	width: 100%;
 }
+
 /*SmallDevice */
 @media only screen and (max-width: 700px) and (orientation:portrait){
 	.contactext {
