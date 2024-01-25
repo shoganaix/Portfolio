@@ -1,4 +1,14 @@
+* {
+	padding: 0;
+	margin: 0;
+	overflow-y: hidden;
+	overflow-x: hidden;
 
+}
+
+html {
+	scroll-behavior: smooth;
+}
 /*logo settings*/
 .navbar-brand {
 	background: url('../images/logoblack.png');
@@ -15,16 +25,54 @@
 	opacity: 0.8; /* Set opacity to 1 (full opacity) on hover */
 }
 
-.title {
-	text-align: center;
-	position: relative;
-	margin-top: 150px;
-	margin-bottom: 50px;
-	color: rgb(0, 0, 0);
+.parallax-container {
+	display: flex;
+	white-space: nowrap; /* Evitar el salto de línea en los elementos hijos */
+}
+.portfolio {
+	align-content: center;
+	height:100vh;
+	background-color: black;
+	background-size:cover;
+	position:relative;
+}
+.parallax-item {
+	flex: 0 0 100%; /* Establecer el ancho de cada elemento hijo */
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: bold;
+	font-family: Montserrat, sans-serif;
+	font-size: 3rem;
+	text-transform: uppercase;
+	background-color: whitesmoke;
+	padding: 1rem;
+	min-width: 100vw; /* Asegurar que cada elemento ocupe el ancho completo de la ventana */
 }
 
-.portfolio-item:hover img {
-	opacity: 0.4;
+.parallax-item:first-child {
+	/*background: #c4c2ff;*/
+	background: url("../images/pt.png");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed; /* Parallax Effect for DIV 3*/
+}
+
+.parallax-item:nth-child(2) {
+	/*background: #fdd835;*/
+	background: url("../images/pt.png");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed; /* Parallax Effect for DIV 3*/
+}
+
+.parallax-item:nth-child(3) {
+	/*background: #fda335;*/
+	background: url("../images/pt.png");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed; /* Parallax Effect for DIV 3*/
 }
 
 /* social media icons styling */
@@ -43,12 +91,13 @@
 	background-color: rgba(128, 128, 128, 0.3);
 	text-align: center;
 	position: absolute;
+	bottom: 0;
 	width: 100%;
+	padding: 10px 0;
 }
 
-@media screen and (max-width:767px) {
-.NAME{
-	margin-left: 10%;
-}
-
+@media screen and (max-width: 768px) {
+	.parallax-item h2 {
+		font-size: 1.5rem;
+	}
 }
