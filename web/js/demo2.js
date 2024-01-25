@@ -88,7 +88,7 @@
             const relmousepos = {x : mousePos.x - docScrolls.left, y : mousePos.y - docScrolls.top };
             const mouseDistance = MathUtils.distance(lastMousePosition.x, relmousepos.x, lastMousePosition.y, relmousepos.y);
 
-            volatility = MathUtils.lerp(volatility, Math.min(MathUtils.lineEq(0.4, 0, 80, 0, mouseDistance),1), 0.05);
+            volatility = MathUtils.lerp(volatility, Math.min(MathUtils.lineEq(0.4, 0, 300, 0, mouseDistance),1), 0.05);
             material.uniforms.uVolatility.value = volatility;
 
             lastMousePosition = {x: relmousepos.x, y: relmousepos.y};
