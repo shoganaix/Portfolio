@@ -1,28 +1,41 @@
-# Name 
-**_"An interactive game-like experience"_**
+# My Web Portfolio 
+> **_"An interactive game-like experience"_**
+ 
+This website showcases my portfolio, highlighting my career in videogames. 
 
-This website stands as a tribute to my enduring passion for videogames. 
 The project has been coded using HTML, CSS, JavaScript and PHP. It has also been thoughtfully crafted using Aseprite and Photoshop for the pixel art visuals, along with ProTools for the creation of an original soundtrack
 
 ## Key Features
+![idlespritesheettext](https://github.com/user-attachments/assets/14fe0e98-a945-4951-a1a4-3d3f5aec8109)
 
-🎮 4-Directional Movement Character: Navigate your way through my career with a charming character that can move in all eight directions, adding a sense of exploration to your experience.
 
-🌍 Top-Down Adventure: Immerse yourself in a top-down adventure, reminiscent of classic video games like Zelda, as you delve into different aspects of my professional journey.
+🎮 8-Directional Movement Character: Navigate your way through my career with my magical frog. With eight-directional movement, you can explore all the fun highlights along the way!
 
-🎨 Retro-Style Pixel Art: The entire website is beautifully crafted in retro-style pixel art, creating a nostalgic and visually appealing atmosphere.
+✨ Enchanted Pixel Art: Dive into a world of pixel art that brings a magical atmosphere to the website, inviting you to explore whimsical landscapes and charming characters.
 
-🌟 Engaging Details: Discover the myriad of intricate details, animations, and sounds that are seamlessly integrated into every aspect of the website, ensuring a captivating and immersive experience.
+🎶 Original Soundtrack: Enchanting original OST crafted by a talented music designer and composer.
+
+🌟 Immersive experience: Intricate details, animations, and sounds that are seamlessly integrated into every aspect of the website, ensuring a captivating and immersive experience.
 
 🤝 Interactivity: Engage with elements on the screen, interact with my work, and unlock hidden surprises as you navigate through my portfolio.
 
 ## Updates
 
+### Programming
 - [x] 4 Directional Movement
-- [ ] 8 Directional Movement
-- [x] Character Animations
-- [x] Collisions
+- [x] 8 Directional Movement
+- [ ] Collisions
 - [ ] Camera
-- [ ] Art
 - [ ] Links
 - [ ] Dialogues
+
+### Art
+- [x] Character 4 Directional Movement Animations
+- [ ] Character 8 Directional Movement Animations
+- [ ] Enemy Sprite
+- [ ] Enemy 8 Directional Movement Animations
+- [ ] Enemy 4 Directional Movement Animations
+- [ ] Starting Building Sprite
+- [ ] Link Building Sprite
+- [ ] Link Building Animation
+- [ ] Background
